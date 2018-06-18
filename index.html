@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cuestionario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <!-- Question one -->
+    <fieldset>
+        <h3>Pregunta Uno</h3>
+        <form id="quest-1" class="question">
+            <div class="option-1">
+                <input type="radio" name="name1" id="first-quest-one" value="true">
+                <label for="first-quest-one">Correcta</label>
+            </div>
+            <div class="option-1">
+                <input type="radio" name="name1" id="first-quest-two" value="false">
+                <label for="first-quest-two">Incorrecta</label>
+            </div>
+            <div class="option-1">
+                <input type="radio" name="name1" id="first-quest-three" value="false">
+                <label for="first-quest-three">Incorrecta</label>
+            </div>
+            <div class="option-1">
+                <input type="radio" name="name1" id="first-quest-four" value="false">
+                <label for="first-quest-four">Incorrecta</label>
+            </div>
+        </form>
+        <p id="feedback-1" class="answer-feedback">Respuesta</p>
+    </fieldset>
+
+    <!-- Question Two -->
+    <fieldset>
+        <h3>Pregunta Dos</h3>
+        <form id="quest-2" class="question">
+            <div>
+                <input type="radio" name="name2" id="second-quest-one" value="true">
+                <label for="second-quest-one">Correcta</label>
+            </div>
+            <div>
+                <input type="radio" name="name2" id="second-quest-two" value="false">
+                <label for="second-quest-two">Incorrecta</label>
+            </div>
+            <div>
+                <input type="radio" name="name2" id="second-quest-three" value="false">
+                <label for="second-quest-three">Incorrecta</label>
+            </div>
+            <div>
+                <input type="radio" name="name2" id="second-quest-four" value="false">
+                <label for="second-quest-four">Incorrecta</label>
+            </div>
+        </form>
+        <p id="feedback-2" class="answer-feedback">Respuesta</p>
+    </fieldset>
+
+    <!-- Question Three -->
+    <fieldset>
+        <h3>Pregunta Tres</h3>
+        <form id="quest-3" class="question">
+            <div>
+                <input type="radio" name="name3" id="third-quest-one" value="true">
+                <label for="third-quest-one">Correcta</label>
+            </div>
+            <div>
+                <input type="radio" name="name3" id="third-quest-two" value="false">
+                <label for="third-quest-two">Incorrecta</label>
+            </div>
+            <div>
+                <input type="radio" name="name3" id="third-quest-three" value="false">
+                <label for="third-quest-three">Incorrecta</label>
+            </div>
+            <div>
+                <input type="radio" name="name3" id="third-quest-four" value="false">
+                <label for="third-quest-four">Incorrecta</label>
+            </div>
+        </form>
+        <p id="feedback-3" class="answer-feedback">Respuesta</p>
+    </fieldset>
+
+    <div id="accept-button">
+        <button id="answer-button" onclick="clickEvent()">Enviar</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+fieldset {
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.question {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.answer-feedback {
+    order: 5;
+}
+
+#accept-button {
+    width: 20%;
+    margin: 0 auto;
+}
+
+fieldset>h3 {
+    text-align: center;
+}
+
+fieldset>p {
+    margin: 1rem 0;
+}
+
+div>input{
+    margin-right: 5%;
+    font-size: 1rem;
+}
+
+.question>div {
+    margin: 5%;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
